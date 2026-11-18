@@ -1,0 +1,17 @@
+{
+  "faturas_teste/fatura_enel_sintetica.png": {
+    "empresa": "ENEL",
+    "endereco_esperado": "RUA GENERAL FRANCISCO GLICERIO, 1020",
+    "cep_esperado": "08674-000"
+  },
+  "faturas_teste/fatura_sabesp_sintetica.png": {
+    "empresa": "SABESP",
+    "endereco_esperado": "AVENIDA ANTONIO MARQUES FIGUEIRA, 450",
+    "cep_esperado": "08676-000"
+  },
+  "faturas_teste/fatura_claro_sintetica.png": {
+    "empresa": "CLARO",
+    "endereco_esperado": "RUA BENJAMIN CONSTANT, 890",
+    "cep_esperado": "08674-010"
+  }
+}
