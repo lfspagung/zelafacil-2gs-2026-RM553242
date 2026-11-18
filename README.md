@@ -4,6 +4,7 @@
 > Autor: Lucas de Freitas Pagung | RM: 553242 - 4ESPR - AV. PAULISTA
 
 ---
+Repositório: https://github.com/lfspagung/zelafacil-2gs-2026-RM553242.git
 
 ## Ficha Técnica do MVP:
 
@@ -36,9 +37,36 @@ Cidadão e Território:
 
   Modelos de IA Utilizados: Tesseract OCR (visão computacional / extração textual) e GPT-4o-mini (classificação de severidade e laudo técnico NBR 9050).
 
-URL do MVP e Repositório:
-  MVP : `https://zelafacil-2gs-2026-RM553242.azurewebsites.net`
-  Repositório: https://github.com/lfspagung/zelafacil-2gs-2026-RM553242.git
+---
+
+## Dependências e Guia de Execução
+
+Para executar o **ZelaFácil** localmente, são necessárias **7 bibliotecas Python** (declaradas em `mvp_app/requirements.txt`) e o motor de reconhecimento óptico **Tesseract OCR** instalado no sistema operacional.
+
+### 1. Bibliotecas Python (`mvp_app/requirements.txt`)
+
+| Biblioteca | Finalidade no Projeto |
+| :--- | :--- |
+| **`streamlit`** | Framework da interface web interativa, navegação em abas e controles de acessibilidade. |
+| **`opencv-python-headless`** | Pré-processamento de imagem, detecção de contornos e retificação de perspectiva. |
+| **`pytesseract`** | Interface Python para comunicação com o motor Tesseract OCR. |
+| **`pillow`** | Leitura, conversão e manipulação de arquivos de imagem (`PNG`, `JPG`, `JPEG`). |
+| **`numpy`** | Operações matriciais e cálculos geométricos do pipeline de visão computacional. |
+| **`pandas`** | Estruturação da base de chamados validados e exportação da fila CSV para RPA. |
+| **`openai`** | Cliente SDK utilizado na integração com a API OpenRouter / LLMs (com *fallback* local automático). |
+
+---
+
+2. Dependência de Sistema Operacional (Tesseract OCR)
+Instale o binário do **Tesseract OCR** com o pacote de idioma **Português (`por`)** de acordo com o seu sistema:
+
+macOS (via Homebrew):
+ 
+  ```bash
+  brew install tesseract tesseract-lang
+
+
+Repositório: https://github.com/lfspagung/zelafacil-2gs-2026-RM553242.git
 
 Indicadores de Impacto: Redução do tempo de cadastro de 8 minutos para 15 segundos; 95% dos chamados protocolados sem triagem manual; mapeamento de pontos críticos de acessibilidade por CEP.
 
