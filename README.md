@@ -5,7 +5,7 @@
 
 ---
 
-## Ficha Técnica do MVP
+## Ficha Técnica do MVP:
 
 Nome do Produto: ZelaFácil.
 
