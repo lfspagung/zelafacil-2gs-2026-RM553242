@@ -7,7 +7,7 @@
 
 ## Ficha Técnica do MVP
 
-Nome do Produto: ZelaFácil 
+Nome do Produto: ZelaFácil.
 
 Cidadão e Território:
 
