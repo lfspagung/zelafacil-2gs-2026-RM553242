@@ -37,8 +37,8 @@ Cidadão e Território:
   Modelos de IA Utilizados:** Tesseract OCR (visão computacional / extração textual) e GPT-4o-mini (classificação de severidade e laudo técnico NBR 9050).
 
 URL do MVP e Repositório:
-  MVP em Produção: `https://zelafacil-2gs-2026-RM553242.azurewebsites.net`
-  Repositório: `https://github.com/SEU_USUARIO/zelafacil-2gs-2026-RM553242`
+  MVP : `https://zelafacil-2gs-2026-RM553242.azurewebsites.net`
+  Repositório: https://github.com/lfspagung/zelafacil-2gs-2026-RM553242.git
 
 Indicadores de Impacto: Redução do tempo de cadastro de 8 minutos para 15 segundos; 95% dos chamados protocolados sem triagem manual; mapeamento de pontos críticos de acessibilidade por CEP.
 
