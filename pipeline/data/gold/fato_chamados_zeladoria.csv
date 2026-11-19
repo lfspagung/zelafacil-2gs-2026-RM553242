@@ -1,0 +1,7 @@
+protocolo,data_abertura,sk_localidade,sk_categoria,cidadao_hash_lgpd,gravidade,prioridade_score,status,origem_dado,tempo_resolucao_horas,descricao
+ZF-2026-0001,2026-11-10 08:15:00,1,1,1dbbeb1a6491d34d,Alta,3,Em Análise,OCR_Fatura,0.0,Rampa destruída na esquina impede passagem de cadeirante.
+ZF-2026-0002,2026-11-11 14:30:00,2,2,afb7e6dc7a5af176,Alta,3,Concluído,Portal_Web,48.0,Piso tátil solto próximo ao ponto de ônibus.
+ZF-2026-0003,2026-11-12 09:45:00,3,3,daa5122ffda1e862,Crítica,4,Encaminhado 156,OCR_Fatura,72.0,Buraco profundo na calçada em frente à UBS.
+ZF-2026-0004,2026-11-14 19:20:00,1,4,2c52ca7082f70994,Média,2,Concluído,Portal_Web,24.0,Poste apagado há 5 dias em travessia de pedestres.
+ZF-2026-0005,2026-11-16 11:05:00,4,5,541f8aa1f15fb038,Crítica,4,Em Análise,OCR_Fatura,0.0,Sinal sonoro para deficientes visuais inoperante.
+ZF-2026-0006,2026-11-17 16:40:00,2,3,ANONIMO,Média,2,Encaminhado 156,Portal_Web,60.0,Raiz de árvore levantando bloquetes da calçada.

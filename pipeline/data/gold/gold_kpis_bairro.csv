@@ -1,0 +1,5 @@
+cidade,bairro,total_chamados,chamados_criticos,score_medio_prioridade,tempo_medio_resolucao_h
+Suzano,Centro,2,1,2.5,12.0
+São Paulo,Bela Vista,2,1,2.5,54.0
+São Paulo,Butantã,1,1,4.0,72.0
+São Paulo,Vila Mariana,1,1,4.0,0.0
