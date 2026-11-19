@@ -4,7 +4,16 @@
 > Autor: Lucas de Freitas Pagung | RM: 553242 - 4ESPR - AV. PAULISTA
 
 ---
-Repositório: https://github.com/lfspagung/zelafacil-2gs-2026-RM553242.git
+## 🌐 Aplicação em Produção (Microsoft Azure)
+
+- URL oficial MVP (Azure App Service): [Acessar ZelaFácil no ar](https://zelafacil-2gs-2026-rm553242-sp-emfua5bbecfbbgeh.brazilsouth-01.azurewebsites.net)
+- Infraestrutura: Azure App Service (Linux, Python 3.11, região Brazil South) com deploy contínuo via GitHub Actions.
+- Inicialização automatizada: `startup.sh` (instalação do Tesseract OCR + execução do Streamlit na porta `8000`).
+- Massa de testes OCR: utilize as faturas de demonstração disponíveis na pasta `faturas_teste/` deste repositório
+
+> Nota para avaliação: Na primeira requisição após períodos de inatividade, o carregamento inicial pode levar alguns segundos devido ao *cold start* do contêiner Linux no Azure.
+
+Repositório git: https://github.com/lfspagung/zelafacil-2gs-2026-RM553242.git
 
 ## Ficha Técnica do MVP:
 
