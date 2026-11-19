@@ -23,8 +23,7 @@ Cidadão e Território:
 
 -Idosos, pessoas com deficiência (PcD) e moradores de bairros urbanos e periféricos que enfrentam barreiras de mobilidade e dificuldade de acesso a canais digitais burocráticos.
 
--Problema, em uma frase: Problemas de manutenção urbana e falta de acessibilidade em pontos de ônibus e travessias demoram meses para serem resolvidos porque os canais públicos exigem cadastros complexos e dependem de triagem manual em sistemas legados.
-
+-Problema: Problemas de manutenção urbana e falta de acessibilidade em pontos de ônibus e travessias demoram meses para serem resolvidos porque os canais públicos exigem cadastros complexos e dependem de triagem manual em sistemas legados.
 
 -Proposta de Valor: Plataforma web acessível onde o cidadão escaneia o QR Code de uma placa física tátil no espaço público, realiza o cadastro em 1 clique fotografando uma conta de consumo (OCR), relata o problema em linguagem simples com apoio de IA Generativa para geração de laudo técnico, e tem seu protocolo registrado automaticamente nos sistemas públicos via RPA.
 
@@ -52,22 +51,22 @@ Cidadão e Território:
 
 Para executar o **ZelaFácil** localmente, são necessárias **7 bibliotecas Python** (declaradas em `mvp_app/requirements.txt`) e o motor de reconhecimento óptico **Tesseract OCR** instalado no sistema operacional.
 
-### 1. Bibliotecas Python (`mvp_app/requirements.txt`)
+1. Bibliotecas Python (`mvp_app/requirements.txt`)
 
 | Biblioteca | Finalidade no Projeto |
 | :--- | :--- |
-| **`streamlit`** | Framework da interface web interativa, navegação em abas e controles de acessibilidade. |
-| **`opencv-python-headless`** | Pré-processamento de imagem, detecção de contornos e retificação de perspectiva. |
-| **`pytesseract`** | Interface Python para comunicação com o motor Tesseract OCR. |
-| **`pillow`** | Leitura, conversão e manipulação de arquivos de imagem (`PNG`, `JPG`, `JPEG`). |
-| **`numpy`** | Operações matriciais e cálculos geométricos do pipeline de visão computacional. |
-| **`pandas`** | Estruturação da base de chamados validados e exportação da fila CSV para RPA. |
-| **`openai`** | Cliente SDK utilizado na integração com a API OpenRouter / LLMs (com *fallback* local automático). |
+| `streamlit` | Framework da interface web interativa, navegação em abas e controles de acessibilidade. |
+| `opencv-python-headless` | Pré-processamento de imagem, detecção de contornos e retificação de perspectiva. |
+| `pytesseract` | Interface Python para comunicação com o motor Tesseract OCR. |
+| `pillow` | Leitura, conversão e manipulação de arquivos de imagem (`PNG`, `JPG`, `JPEG`). |
+| `numpy` | Operações matriciais e cálculos geométricos do pipeline de visão computacional. |
+| `pandas` | Estruturação da base de chamados validados e exportação da fila CSV para RPA. |
+| `openai` | Cliente SDK utilizado na integração com a API OpenRouter / LLMs (com *fallback* local automático). |
 
 ---
 
 2. Dependência de Sistema Operacional (Tesseract OCR)
-Instale o binário do **Tesseract OCR** com o pacote de idioma **Português (`por`)** de acordo com o seu sistema:
+Instale o binário do Tesseract OCR com o pacote de idioma Português (`por`) de acordo com o seu sistema:
 
 macOS (via Homebrew):
  
@@ -75,7 +74,7 @@ macOS (via Homebrew):
   brew install tesseract tesseract-lang
 
 
-Repositório: https://github.com/lfspagung/zelafacil-2gs-2026-RM553242.git
+
 
 Indicadores de Impacto: Redução do tempo de cadastro de 8 minutos para 15 segundos; 95% dos chamados protocolados sem triagem manual; mapeamento de pontos críticos de acessibilidade por CEP.
 
