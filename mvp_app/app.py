@@ -410,7 +410,7 @@ with aba_registro:
         img = Image.open(arquivo)
         col_img, col_info = st.columns([1, 1.35], gap="large")
         with col_img:
-            st.image(img, caption="Comprovante carregado", use_column_width=True)
+            st.image(img, caption="Comprovante carregado", width="stretch")
         with col_info:
             with st.spinner("Analisando documento..."):
                 dados_ocr = extrair_dados_fatura(img)
