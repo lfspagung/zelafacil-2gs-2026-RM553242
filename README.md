@@ -4,7 +4,7 @@
 > Autor: Lucas de Freitas Pagung | RM: 553242 - 4ESPR - AV. PAULISTA
 
 ---
-## 🌐 Aplicação em Produção (Microsoft Azure)
+Aplicação em Produção (Microsoft Azure)
 
 - URL oficial MVP (Azure App Service): [Acessar ZelaFácil no ar](https://zelafacil-2gs-2026-rm553242-sp-emfua5bbecfbbgeh.brazilsouth-01.azurewebsites.net)
 - Infraestrutura: Azure App Service (Linux, Python 3.11, região Brazil South) com deploy contínuo via GitHub Actions.
