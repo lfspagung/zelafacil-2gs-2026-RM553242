@@ -1,0 +1,91 @@
+{
+  "pipeline": "zelafacil_citizentech_etl",
+  "ingested_at_utc": "2026-11-19T16:14:19.228979+00:00",
+  "total_registros_brutos": 7,
+  "records": [
+    {
+      "protocolo": "ZF-2026-0001",
+      "data_abertura": "2026-11-10 08:15:00",
+      "cidadao_nome": "Jose Carlos da Silva",
+      "cep_informado": "08674010",
+      "categoria": "Rampa de Acessibilidade",
+      "descricao": "Rampa destruída na esquina impede passagem de cadeirante.",
+      "gravidade": "Alta",
+      "status": "Em Análise",
+      "origem_dado": "OCR_Fatura",
+      "tempo_resolucao_horas": null
+    },
+    {
+      "protocolo": "ZF-2026-0001",
+      "data_abertura": "2026-11-10 08:15:00",
+      "cidadao_nome": "Jose Carlos da Silva",
+      "cep_informado": "08674-010",
+      "categoria": "Rampa de Acessibilidade",
+      "descricao": "Rampa destruída na esquina impede passagem de cadeirante.",
+      "gravidade": "Alta",
+      "status": "Em Análise",
+      "origem_dado": "OCR_Fatura",
+      "tempo_resolucao_horas": null
+    },
+    {
+      "protocolo": "ZF-2026-0002",
+      "data_abertura": "2026-11-11 14:30:00",
+      "cidadao_nome": "Maria Oliveira",
+      "cep_informado": "01310-100",
+      "categoria": "Piso Tátil",
+      "descricao": "Piso tátil solto próximo ao ponto de ônibus.",
+      "gravidade": "Alta",
+      "status": "Concluído",
+      "origem_dado": "Portal_Web",
+      "tempo_resolucao_horas": 48.0
+    },
+    {
+      "protocolo": "ZF-2026-0003",
+      "data_abertura": "2026-11-12 09:45:00",
+      "cidadao_nome": "Carlos Eduardo Santos",
+      "cep_informado": "05508-000",
+      "categoria": "Calçada Irregular",
+      "descricao": "Buraco profundo na calçada em frente à UBS.",
+      "gravidade": "Crítica",
+      "status": "Encaminhado 156",
+      "origem_dado": "OCR_Fatura",
+      "tempo_resolucao_horas": 72.0
+    },
+    {
+      "protocolo": "ZF-2026-0004",
+      "data_abertura": "2026-11-14 19:20:00",
+      "cidadao_nome": "Ana Paula Ferreira",
+      "cep_informado": "08674-010",
+      "categoria": "Iluminação Pública",
+      "descricao": "Poste apagado há 5 dias em travessia de pedestres.",
+      "gravidade": "Média",
+      "status": "Concluído",
+      "origem_dado": "Portal_Web",
+      "tempo_resolucao_horas": 24.0
+    },
+    {
+      "protocolo": "ZF-2026-0005",
+      "data_abertura": "2026-11-16 11:05:00",
+      "cidadao_nome": "Roberto Almeida",
+      "cep_informado": "04101-300",
+      "categoria": "Semáforo Sonoro",
+      "descricao": "Sinal sonoro para deficientes visuais inoperante.",
+      "gravidade": "Crítica",
+      "status": "Em Análise",
+      "origem_dado": "OCR_Fatura",
+      "tempo_resolucao_horas": null
+    },
+    {
+      "protocolo": "ZF-2026-0006",
+      "data_abertura": "2026-11-17 16:40:00",
+      "cidadao_nome": null,
+      "cep_informado": "01310100",
+      "categoria": "Calçada Irregular",
+      "descricao": "Raiz de árvore levantando bloquetes da calçada.",
+      "gravidade": "Média",
+      "status": "Encaminhado 156",
+      "origem_dado": "Portal_Web",
+      "tempo_resolucao_horas": 60.0
+    }
+  ]
+}
