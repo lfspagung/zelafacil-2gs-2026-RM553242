@@ -1,4 +1,4 @@
-# ZelaFácil — Plataforma Inteligente de Zeladoria Urbana e Acessibilidade.
+ZelaFácil — Plataforma inteligente de zeladoria urbana e acessibilidade.
 
 > FIAP — Global Solution 2026.2 | Engenharia de Software (4º Ano - 4ESPR)  
 > Autor: Lucas de Freitas Pagung | RM: 553242 - 4ESPR - AV. PAULISTA
